@@ -1,10 +1,12 @@
+import ImmediatelyInvokedFunction from "./components/ImmediatelyInvokedFunction"
+import ShortHandIfElse from "./components/ShortHandIfElse"
 
 function App() {
 
   return (
     <>
-      <h1>Hello and welcome to practise projects!</h1>
-      
+      <ShortHandIfElse/>
+      <ImmediatelyInvokedFunction/>
     </>
   )
 }
