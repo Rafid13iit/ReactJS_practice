@@ -52,12 +52,33 @@ const ConditionalRendering = () => {
 
     // Logical And
 
-    const status = true;
+    // const status = true;
+
+    // return (
+    //     <div>
+    //         <h1>Login Status:</h1>
+    //         {status && <button>Logout Button</button>}
+    //     </div>
+    // )
+
+
+    // Immediately invoked function
+    const status = false;
 
     return (
         <div>
             <h1>Login Status:</h1>
-            {status && <button>Logout Button</button>}
+            
+            {
+                (()=>{
+                    if (status){
+                        return <button>Logout Button</button>
+                    }
+                    else {
+                        return <button>Login Button</button>
+                    }
+                })()
+            }
         </div>
     )
 
