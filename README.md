@@ -1,1 +1,1 @@
-<h1>this repo contains React Practise Projects and Codes</h1>
+<h2>this repo contains <h1>React Practise Projects & Codes</h1></h2>
