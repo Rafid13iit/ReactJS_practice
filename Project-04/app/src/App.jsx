@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import SearchResult from "./components/SearchResults/SearchResult";
+import SearchResult from "./components/SearchResult";
 
 export const BASE_URL = "http://localhost:9000";
 
